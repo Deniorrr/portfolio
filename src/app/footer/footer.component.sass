@@ -1,0 +1,42 @@
+footer
+    justify-content: center
+    background-color: #333
+    display: grid
+    grid-template-columns: 1fr
+
+footer .socials
+    justify-self: end
+
+a>img 
+    height: 40px
+    margin: 10px
+    -webkit-transform: rotate(0) scale(1)
+    transform: rotate(0) scale(1)
+    -webkit-transition: .3s ease-in-out
+    transition: .3s ease-in-out
+
+a>img:hover 
+    -webkit-transform: rotate(15deg) scale(1.4)
+    transform: rotate(15deg) scale(1.4)
+
+footer>.copy 
+    width: 100%
+    padding: 15px
+    border-top: 2px solid #ffd900
+    text-align: center
+
+ul
+    display: flex
+
+li
+    list-style-type: none
+
+nav a
+    text-decoration: none
+    display: block
+    padding: 15px
+    font-size: 1.5em
+    border-left: 1px solid #ffd900
+    box-shadow: inset 0 0 0 0 #ffd900
+    transition: ease-out 0.5s
+    color: #fff
