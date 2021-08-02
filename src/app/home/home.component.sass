@@ -1,8 +1,10 @@
 header
     display: grid
-    grid-template-columns: 2fr 1fr
-    align-items: center
-    justify-items: center
+    grid-template-columns: 1fr 2fr
+    align-items: end
+    // justify-items: center
+    background-image: linear-gradient(#33333300 150px,#333 0%)
+    border-bottom: 2px solid #ffd900
 
 header h1
     font-size: 4em
@@ -12,16 +14,16 @@ header h2
     margin: 0
     font-size: 2em
 
-.portrait>img
+.portrait
     height: 300px
     // border: 1px solid #ffd900
-    border-top-right-radius: 60px
-    border-bottom-left-radius: 60px
-    -webkit-box-shadow: 0px 0px 5px 5px #ffd900
-    box-shadow: 0px 0px 5px 5px #ffd90099
+    // border-top-right-radius: 60px
+    // border-bottom-left-radius: 60px
+    // -webkit-box-shadow: 0px 0px 5px 5px #ffd900
+    // box-shadow: 0px 0px 5px 5px #ffd90099
 .about
     display: flex
-    margin-bottom: 50px
+    margin: 100px 0 50px 0
 
     &>h2
         display: block
