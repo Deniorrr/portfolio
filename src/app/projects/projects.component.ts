@@ -35,6 +35,6 @@ export class ProjectsComponent implements OnInit {
 
 function create_tile(zdjecie, tytul, opis, language) {
   let tile = ""
-  tile += `<div class='tile'><img class='preview' src='${zdjecie}'><h1>${tytul}</h1><p>${opis}</p><p>language: ${language}</p></div>`
+  tile += `<div class='tile'><img class='preview' src='${zdjecie}'><h1>${tytul}</h1><p>${opis}</p><p id='language'>Main language: ${language}</p></div>`
   document.getElementById("projects_scraped").innerHTML += tile
 }

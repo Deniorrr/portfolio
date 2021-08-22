@@ -5,14 +5,31 @@
 
 .preview
     width: 100%
-    background-color: $grey
+    padding: 5px
+
 .tile
+    position: relative
+    background-color: $light-grey
     display: flex
     flex-direction: column
-    border: 1px solid $base-color
-    margin: 5px
+    margin: 15px
+    padding-bottom: 30px
+    transition-duration: 0.3s
     p, img, h1
         align-self: center
     p
         margin-top: 10px
         text-align: center
+    h1
+        text-transform: uppercase
+        font-size: 20px
+        color: $base-color
+    #language
+        position: absolute
+        bottom: 0
+        font-size: 0.8em
+        color: $base-color
+        margin-bottom: 5px
+.tile:hover
+    transform: scale(1.1)
+    cursor: pointer
